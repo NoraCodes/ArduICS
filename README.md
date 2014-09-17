@@ -1,4 +1,4 @@
 ArduICS
 =======
-##An Arduino-compatible industrial control system for long-term, low maintenece applications.
+An Arduino-compatible industrial control system for long-term, low maintenece applications.
 
