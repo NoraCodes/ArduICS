@@ -25,4 +25,5 @@ Current motherboard version: **0.2d**
 
 ###XPAND Interface
 * Uses 3.5mm stereo plug
-* Based on 74HC595 shift registers
+* Simple to implement: Sleeve common, ring data, tip clock.
+* Based on 74HC595 shift registers; tons of documentation available
