@@ -2,6 +2,10 @@ ArduICS
 =======
 An Arduino-compatible industrial control system for long-term, low maintenance applications. ArduICS uses simple, easy to manage XPAND interfaces, using 595HC shift registers; just send bits along the wire using ShiftIn(), and your outputs will switch.
 
+PLCs are very hard to program, and far more powerful than needed for most small businesses. For many applications, a slower and cheaper system would work fine; but such a thing doesn't really exist. Now it does. ArduICS is easy to program, and once it's set up, it can be left running for a very long time.
+
+ArduICS is open source; please feel free to contribute your XPAND boards, or an other projects designed to interface with the ArduICS motherboard.
+
 ###Motherboard
 Current motherboard version: **0.1d**
 * 5 relay outputs
