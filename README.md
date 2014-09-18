@@ -57,7 +57,8 @@ Current motherboard version: **0.2e**
 * XPAND Relay **v0.1a**: 8 relay-based outputs. Control your HV devices simply and reliably, but slowly.
 
 ### I2C Expansion Boards
-* x16 Pin I/O with MCP23017: Use this when there just aren't enough digital I/O pins. Can use up to 8 on one bus
+* x16 Pin I/O with MCP23017: Use this when there just aren't enough digital I/O pins. Can use up to 8 of these on one I2C bus.
+* 1MB EEPROM: A tiny board with 1MB of non-volatile memory that can be accessed quickly over the I2C bus. Up to 8 on one I2C bus.
 
 ### SPI Expansion Boards
 * None yet, but we support virtually any SPI enabled system.
