@@ -4,7 +4,7 @@ An Arduino-compatible industrial control system for long-term, low maintenance a
 
 PLCs are very hard to program, and far more powerful than needed for most small businesses. For many applications, a slower and cheaper system would work fine; but such a thing doesn't really exist. Now it does. ArduICS is easy to program, and once it's set up, it can be left running for a very long time. Plus, if you solder headers into the motherboard instead of soldering the controller in directly, you can swap out programs in seconds, or replace a broken or "bricked" controller cheaply.
 
-ArduICS is open source; please feel free to contribute your XPAND boards, or an other projects designed to interface with the ArduICS motherboard.
+ArduICS is open source; please feel free to contribute your XPAND boards, or any other projects designed to interface with the ArduICS motherboard.
 
 ###Motherboard
 Current motherboard version: **0.1d**
