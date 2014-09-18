@@ -1,6 +1,6 @@
 ArduICS
 =======
-An Arduino-compatible industrial control system for long-term, low maintenance applications.
+An Arduino-compatible industrial control system for long-term, low maintenance applications. ArduICS uses simple, easy to manage XPAND interfaces, using 595 shift registers; just send bits along the wire using ShiftIn(), and your outputs will switch.
 
 ###Motherboard
 Current motherboard version: **0.1d**
