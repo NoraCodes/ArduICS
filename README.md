@@ -16,3 +16,7 @@ Current motherboard version: **0.1d**
 
 ###XPAND Boards
 * XPAND General: 8 digital outputs
+
+###XPAND Interface
+* Uses 3.5mm stereo plug
+* Based on 595HC shift registers
