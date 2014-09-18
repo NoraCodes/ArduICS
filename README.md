@@ -40,7 +40,13 @@ Current motherboard version: **0.2d**
 ###XPAND Boards
 * XPAND General **v0.1a**: 8 digital outputs. Use this to send digital signals to pretty much any 5V TTL devices (or through a level shifter to 3.3V or 12V devices). Or, use it to produce SS signals for your vast array of SPI sensors and actuators.
 * XPAND LED **v0.1a**: 8 indicator LEDs. Use this module to allow at-a-glance status monitoring.
-* XPAND Relay **v0.1a**: 8 relay-based outputs. Control your HV devices simply and reliably.
+* XPAND Relay **v0.1a**: 8 relay-based outputs. Control your HV devices simply and reliably, but slowly.
+
+###I2C Expansion Boards
+* None yet.
+
+###SPI Expansion Boards
+* None yet.
 
 ###XPAND Interface
 * Uses 3.5mm stereo plug
