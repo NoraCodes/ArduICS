@@ -28,7 +28,7 @@ Please feel free to contribute your XPAND boards, or any other projects designed
 ## Hardware
 
 ### Motherboard
-Current motherboard version: **0.2d**
+Current motherboard version: **0.2e**
 
 #### Board:
 
@@ -41,6 +41,7 @@ Current motherboard version: **0.2d**
 * Dual regulated input voltage
 * PWR and CTRL indication at a glance
 * Support for output expansion via shift registers over 3.5mm audio line (XPAND bus)
+* Supports resetting controller from external button or logical device
 
 #### Controller:
 
