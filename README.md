@@ -11,7 +11,7 @@ Current motherboard version: **0.2d**
 * 5 relay outputs
 * 4 analog inputs
 * Hardware I2C and SPI interfaces
-* UART interface
+* UART interface (hook up via UART-to-USB cable or by the controller's onboard UART-to-USB chip to easily debug and extract data)
 * 2 digital logic I/O ports (SPI SS or any other 5V logic)
 * Screw terminal and barrel jacks for power
 * Dual regulated input voltage
