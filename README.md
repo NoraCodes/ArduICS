@@ -5,7 +5,7 @@ ArduICS
 An Arduino-compatible industrial control system for long-term, low maintenance applications. ArduICS uses simple, easy to manage XPAND interfaces, using 74HC595 shift registers; just send bits along the wire using ShiftIn(), and your outputs will switch. ArduICS uses all through-hole (THT) components; no difficult surface-mount soldering means you can assemble everything yourself and save money, and maintenance is as easy as looking up a schematic and popping in a replacement part.
 
 ### Why not use an existing solution?
-PLCs are very hard to program, and far more powerful than needed for most small businesses. For many applications, a slower and cheaper system would work fine; but such a thing doesn't really exist. Now it does. ArduICS is easy to program, and once it's set up, it can be left running for a very long time. Plus, if you solder headers into the motherboard instead of soldering the controller in directly, you can swap out programs in seconds, or replace a broken or "bricked" controller cheaply.
+PLCs are very hard to program, and far more powerful than needed for most small businesses. For many applications, a slower and cheaper system would work fine; but such a thing doesn't really exist. ArduICS is easy to program (using either the Arduino's Wiring language or AVR-C), and once it's set up, it can be left running for a very long time. Plus, if you solder headers into the motherboard instead of soldering the controller in directly, you can swap out programs in seconds, or replace a broken or "bricked" controller cheaply. Its "brain" is the ATMega 32u4 on LadyAda's breakout board (http://www.adafruit.com/products/296?&main_page=product_info&cPath=19&products_id=296)
 
 ### What are the design principles?
 ArduICS has a few simple design principles. Anything you submit should adhere to these.
@@ -25,8 +25,12 @@ ArduICS is open source, under the GPLv3. You can do anything with it (yes, anyth
 ### How can I help?
 Please feel free to contribute your XPAND boards, or any other projects designed to interface with the ArduICS motherboard.
 
+## Hardware
+
 ### Motherboard
 Current motherboard version: **0.2d**
+
+#### Board:
 
 * 5 relay outputs
 * 4 analog inputs
@@ -36,8 +40,15 @@ Current motherboard version: **0.2d**
 * Screw terminal and barrel jacks for power
 * Dual regulated input voltage
 * PWR and CTRL indication at a glance
-* Support for output expansion via shift registers
+* Support for output expansion via shift registers over 3.5mm audio line (XPAND bus)
 
+#### Controller:
+
+* 32K Non Volatile Memory
+* 2.5K Volatile RAM
+* 16 MHz Clock
+* 5V TTL Logic Level
+* Natively USB and ISP/ICSP Programmable
 
 ### XPAND Boards
 * XPAND General **v0.1a**: 8 digital outputs. Use this to send digital signals to pretty much any 5V TTL devices (or through a level shifter to 3.3V or 12V devices). Or, use it to produce SS signals for your vast array of SPI sensors and actuators.
