@@ -48,7 +48,7 @@ Current motherboard version: **0.2d**
 * None yet, but we support virtually any I2C enabled system.
 
 ### SPI Expansion Boards
-* x16 Pin I/O with MCP23017
+* x16 Pin I/O with MCP23017: Use this when there just aren't enough digital I/O pins. Can use up to 8 on one bus
 
 ### Other Expansion Boards
 * Power Regulator for Peripherals **v0.1a**: Provide clean, regulated power to your XPAND boards and other peripherals. Input +6 to +12 volts (from an ATX or other cheap power supply), and get out +5 volts of beautifully flat, clean voltage.
