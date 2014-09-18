@@ -15,7 +15,7 @@ Current motherboard version: **0.1d**
 * Support for output expansion via shift registers
 
 ###XPAND Boards
-* XPAND General: 8 digital outputs
+* XPAND General **v0.1a**: 8 digital outputs
 
 ###XPAND Interface
 * Uses 3.5mm stereo plug
