@@ -45,10 +45,10 @@ Current motherboard version: **0.2d**
 * XPAND Relay **v0.1a**: 8 relay-based outputs. Control your HV devices simply and reliably, but slowly.
 
 ### I2C Expansion Boards
-* None yet.
+* None yet, but we support virtually any I2C enabled system.
 
 ### SPI Expansion Boards
-* None yet.
+* x16 Pin I/O with MCP23017
 
 ### Other Expansion Boards
 * Power Regulator for Peripherals **v0.1a**: Provide clean, regulated power to your XPAND boards and other peripherals. Input +6 to +12 volts (from an ATX or other cheap power supply), and get out +5 volts of beautifully flat, clean voltage.
