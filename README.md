@@ -7,6 +7,14 @@ An Arduino-compatible industrial control system for long-term, low maintenance a
 ###Why not use an existing solution?
 PLCs are very hard to program, and far more powerful than needed for most small businesses. For many applications, a slower and cheaper system would work fine; but such a thing doesn't really exist. Now it does. ArduICS is easy to program, and once it's set up, it can be left running for a very long time. Plus, if you solder headers into the motherboard instead of soldering the controller in directly, you can swap out programs in seconds, or replace a broken or "bricked" controller cheaply.
 
+###What are the design principles?
+ArduICS has a few simple design principles. Anything you submit should adhere to these.
+* Safe; keep HV away from logic (and humans!)
+* Simple; try not to use convoluted control schemes or proprietary interfaces
+* Self-contained; try to make each module work by itself, and put as much documentation as possible on the PCB's silkscreen.
+* Serial; don't connect parallel interfaces towards the motherboard unless absolutely necessary. Convert to parallel as close to the end as possible (use 74HC595s or similar chips). This keeps the number of wires and lines of code down.
+* Extensible; Make sure your modules fit in with the rest of the ecosystem, and expand the capabilities of the system as a whole, rather than limiting them. For example, try to always pass busses through rather than capping them, and if there are extra inputs or outputs available on your ICs, try to make them available.
+
 ###What are my rights?
 ArduICS is open source, under the GPLv3. You can do anything with it (yes, anything, including sell it) except sue me or change how it is licensed, as long as you:
 * say where you got it (i.e., link back here)
