@@ -7,12 +7,12 @@ PLCs are very hard to program, and far more powerful than needed for most small 
 ArduICS is open source; please feel free to contribute your XPAND boards, or any other projects designed to interface with the ArduICS motherboard.
 
 ###Motherboard
-Current motherboard version: **0.1d**
+Current motherboard version: **0.2d**
 * 5 relay outputs
-* 5 analog inputs
-* SPI interface
+* 4 analog inputs
+* Hardware I2C and SPI interfaces
 * UART interface
-* 2 digital I/O ports
+* 2 digital logic I/O ports (SPI SS or any other 5V logic)
 * Screw terminal and barrel jacks for power
 * Dual regulated input voltage
 * PWR and CTRL indication at a glance
@@ -20,9 +20,9 @@ Current motherboard version: **0.1d**
 
 
 ###XPAND Boards
-* XPAND General **v0.1a**: 8 digital outputs
-* XPAND LED **v0.1a**: 8 indicator LEDs
+* XPAND General **v0.1a**: 8 digital outputs. Use this to send digital signals to pretty much any 5V TTL devices (or through a level shifter to 3.3V or 12V devices). Or, use it to produce SS signals for your vast array of SPI sensors and actuators.
+* XPAND LED **v0.1a**: 8 indicator LEDs. Use this module to allow at-a-glance status monitoring.
 
 ###XPAND Interface
 * Uses 3.5mm stereo plug
-* Based on 595HC shift registers
+* Based on 74HC595 shift registers
