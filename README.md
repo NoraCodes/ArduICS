@@ -16,6 +16,7 @@ Current motherboard version: **0.1d**
 
 ###XPAND Boards
 * XPAND General **v0.1a**: 8 digital outputs
+* XPAND LED **v0.1a**: 8 indicator LEDs
 
 ###XPAND Interface
 * Uses 3.5mm stereo plug
