@@ -25,6 +25,8 @@ ArduICS has a few simple design principles. Anything you submit should adhere to
 ### How can I help?
 Please feel free to contribute your XPAND boards, or any other projects designed to interface with the ArduICS motherboard. Everything is currently being designed in [Fritzing](http://fritzing.org/home/) and should be in Fritzing Zip (.fzz) format. This is the default save format. If you submit a module using a different format such as Gerber, please include the PCB files, BoM, and any pertinent documentation.
 
+Have ideas for more modules but don't have the know-how to make them yourself? Notice problems with the existing boards, or ways improvements could be made? First, make sure nobody else has submitted the same thing; then [file an issue](https://github.com/SilverWingedSeraph/ArduICS/issues/new).
+
 ## Hardware
 
 ### Motherboard
