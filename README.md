@@ -23,7 +23,7 @@ ArduICS is open source, under the GPLv3. You can do anything with it (yes, anyth
 *  say how you changed it (if at all)
 
 ### How can I help?
-Please feel free to contribute your XPAND boards, or any other projects designed to interface with the ArduICS motherboard.
+Please feel free to contribute your XPAND boards, or any other projects designed to interface with the ArduICS motherboard. Everything is currently being designed in [Fritzing](http://fritzing.org/home/) and should be in Fritzing Zip (.fzz) format. This is the default save format. If you submit a module using a different format such as Gerber, please include the PCB files, BoM, and any pertinent documentation.
 
 ## Hardware
 
