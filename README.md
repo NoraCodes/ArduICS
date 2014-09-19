@@ -17,7 +17,7 @@ ArduICS has a few simple design principles. Anything you submit should adhere to
 * Extensible; Make sure your modules fit in with the rest of the ecosystem, and expand the capabilities of the system as a whole, rather than limiting them. For example, try to always pass busses through rather than capping them, and if there are extra inputs or outputs available on your ICs, try to make them available.
 
 ### What are my rights?
-ArduICS is open source, under the GPLv3. You can do anything with it (yes, anything, including sell it) except sue me or change how it is licensed, as long as you:
+(Lawyers should see the `LICENSE` file.) ArduICS is open source, under the GPLv3. You can do anything with it (yes, anything, including sell it) except sue me or change how it is licensed, as long as you:
 * say where you got it (i.e., link back here)
 * include a copy of or link to the GPLv3
 *  say how you changed it (if at all)
