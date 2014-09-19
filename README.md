@@ -14,7 +14,7 @@ ArduICS has a few simple design principles. Anything you submit should adhere to
 * Simple; try not to use convoluted control schemes or proprietary interfaces
 * Self-contained; try to make each module work by itself, and put as much documentation as possible on the PCB's silkscreen.
 * Serial; don't connect parallel interfaces towards the motherboard unless absolutely necessary. Convert to parallel as close to the end as possible (use 74HC595s or similar chips). This keeps the number of wires and lines of code down.
-* Extensible; Make sure your modules fit in with the rest of the ecosystem, and expand the capabilities of the system as a whole, rather than limiting them. For example, try to always pass busses through rather than capping them, and if there are extra inputs or outputs available on your ICs, try to make them available.
+* Extensible; Make sure your modules fit in with the rest of the ecosystem, and expand the capabilities of the system as a whole, rather than limiting them. For example, try to always pass busses through rather than capping them, and if there are extra inputs or outputs available on your ICs, try to break them out, even if only to headers or unpopulated pads.
 
 ### What are my rights?
 (Lawyers should see the `LICENSE` file.) ArduICS is open source, under the GPLv3. You can do anything with it (yes, anything, including sell it) except sue me or change how it is licensed, as long as you:
