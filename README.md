@@ -29,6 +29,7 @@ Please feel free to contribute your XPAND boards, or any other projects designed
 
 ### Motherboard
 Current motherboard version: **0.2e**
+<img src="https://raw.githubusercontent.com/SilverWingedSeraph/ArduICS/master/images/AICS%20Motherboard_pcb_02e.png">
 
 #### Board:
 
