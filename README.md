@@ -4,7 +4,7 @@ ArduICS
 ### Vital Statistics
 
 * Controller: **Atmel ATMega 32u4** on 5V at 16MHz
-* Bus Support: **AICS XPAND** **I2C** **SPI** **UART** **USB**
+* Bus Support: **XPAND** **I2C** **SPI** **UART** **USB**
 * Programmable via **USB** in **Wiring** or **AVR-C**
 * Inputs/Outputs: **5x 5V Digital** and **4x 10-bit analog** and ****
 
