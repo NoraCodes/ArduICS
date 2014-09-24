@@ -30,23 +30,28 @@ Have ideas for more modules but don't have the know-how to make them yourself? N
 ## Hardware
 
 ### Motherboard
-Current motherboard version: **0.2e**
-<img src="https://raw.githubusercontent.com/SilverWingedSeraph/ArduICS/master/images/AICS%20Motherboard_pcb_02e.png">
+Current motherboard version: **Mk2**
+<img src="https://raw.githubusercontent.com/SilverWingedSeraph/ArduICS/master/images/AICS%20Motherboard%20Mk2_pcb.jpg">
 
 #### Board:
 
-* 5 relay outputs
-* 4 analog inputs
-* Hardware I2C and SPI interfaces
-* UART interface (hook up via UART-to-USB cable or by the controller's onboard UART-to-USB chip to easily debug and extract data)
-* 2 digital logic I/O ports (SPI SS or any other 5V logic)
-* Screw terminal and barrel jacks for power
+* 3x relay output ports
+* 4x analog I/O ports @ 20 mA
+* 5x 5V TTL digital I/O ports @ 20mA
+* 1x each:
+	* Hardware accelerated **I2C** 
+	* Hardware accelerated **SPI** 
+	* Hardware accelerated **UART**
+	* Native **USB 2.0**
+* 4 amp 5 volt supply on board (for powering peripherals)
 * Dual regulated input voltage
-* PWR and CTRL indication at a glance
+* Power and Controller indication at a glance
 * Support for output expansion via shift registers over 3.5mm audio line (XPAND bus)
 * Supports resetting controller from external button or logical device
 
 #### Controller:
+
+ATMega 32u4 by Atmel on LadyAda's beautiful breakout board
 
 * 32K Non Volatile Memory
 * 2.5K Volatile RAM
@@ -60,7 +65,7 @@ Current motherboard version: **0.2e**
 * XPAND Relay **v0.1a**: 8 relay-based outputs. Control your HV devices simply and reliably, but slowly.
 
 ### I2C Expansion Boards
-* x16 Pin I/O with MCP23017: Use this when there just aren't enough digital I/O pins. Can use up to 8 of these on one I2C bus.
+* 16 Pin I/O with MCP23017: Use this when there just aren't enough digital I/O pins. Can use up to 8 of these on one I2C bus.
 * 1MB EEPROM: A tiny board with 1MB of non-volatile memory that can be accessed quickly over the I2C bus. Up to 8 on one I2C bus.
 
 ### SPI Expansion Boards
