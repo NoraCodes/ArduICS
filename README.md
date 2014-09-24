@@ -62,6 +62,7 @@ ATMega 32u4 by Atmel on LadyAda's beautiful breakout board
 ### I2C Expansion Boards
 * 16 Pin I/O with MCP23017: Use this when there just aren't enough digital I/O pins. Can use up to 8 of these on one I2C bus.
 * 1MB EEPROM: A tiny board with 1MB of non-volatile memory that can be accessed quickly over the I2C bus. Up to 8 on one I2C bus.
+* 8IO 8 Pin I/O expander: Use this to add 8 more 5 volt digital input/output channels to your system. Max 8 per bus.
 
 ### SPI Expansion Boards
 * SPI RTC: A battery-backup Real Time Clock. Keep fairly precise time even when your ICS system is off.
