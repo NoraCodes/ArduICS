@@ -9,7 +9,7 @@ ArduICS
 * Inputs/Outputs: **5x 5V Digital** and **4x 10-bit analog** and ****
 
 ### What is ArduICS?
-An Arduino-compatible industrial control system for long-term, low maintenance applications. ArduICS uses simple, easy to manage XPAND interfaces, using 74HC595 shift registers; just send bits along the wire using ShiftIn(), and your outputs will switch. ArduICS uses all through-hole (THT) components; no difficult surface-mount soldering means you can assemble everything yourself and save money, and maintenance is as easy as looking up a schematic and popping in a replacement part.
+An Arduino-compatible industrial control system for long-term, low maintenance applications. ArduICS uses simple, easy to manage XPAND interfaces, using 74HC595 shift registers; just send bits along the wire using ShiftIn(), and your outputs will switch. ArduICS uses mostly through-hole (THT) components; no difficult surface-mount soldering means you can assemble everything yourself and save money, and maintenance is as easy as looking up a schematic and popping in a replacement part.
 
 ### What is ArduICS XPAND?
 XPAND is a very simple "bus" based on 74HC595 SIPO (serial in parallel out) shift registers. Using only two digital I/O pins, huge numbers of devices can be controlled (hundreds of relays, LEDs, or anything else that can be controlled with a digital signal). It is comparatively slow, so SPI, I2C, or a dedicated digital I/O pin are still recommended for complex/fast/PWM signals, but XPAND is an extremely simple way to control a lot of whatever you need to control. It uses standard 3.5 mm stereo cable, which is already resistant to electrical noise and easy to route.
