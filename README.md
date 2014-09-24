@@ -1,8 +1,18 @@
 ArduICS
 =======
 ## Overview
+### Vital Statistics
+
+* Controller: **Atmel ATMega 32u4** on 5V at 16MHz
+* Bus Support: **AICS XPAND** **I2C** **SPI** **UART** **USB**
+* Programmable via **USB** in **Wiring** or **AVR-C**
+* Inputs/Outputs: **5x 5V Digital** and **4x 10-bit analog** and ****
+
 ### What is ArduICS?
 An Arduino-compatible industrial control system for long-term, low maintenance applications. ArduICS uses simple, easy to manage XPAND interfaces, using 74HC595 shift registers; just send bits along the wire using ShiftIn(), and your outputs will switch. ArduICS uses all through-hole (THT) components; no difficult surface-mount soldering means you can assemble everything yourself and save money, and maintenance is as easy as looking up a schematic and popping in a replacement part.
+
+### What is ArduICS XPAND?
+XPAND is a very simple "bus" based on 74HC595 SIPO (serial in parallel out) shift registers. Using only two digital I/O pins, huge numbers of devices can be controlled (hundreds of relays, LEDs, or anything else that can be controlled with a digital signal). It is comparatively slow, so SPI, I2C, or a dedicated digital I/O pin are still recommended for complex/fast/PWM signals, but XPAND is an extremely simple way to control a lot of whatever you need to control. It uses standard 3.5 mm stereo cable, which is already resistant to electrical noise and easy to route.
 
 ### Why not use an existing solution?
 PLCs are very hard to program, and far more powerful than needed for most small businesses. For many applications, a slower and cheaper system would work fine; but such a thing doesn't really exist. ArduICS is easy to program (using either the Arduino's Wiring language or AVR-C), and once it's set up, it can be left running for a very long time. Plus, if you solder headers into the motherboard instead of soldering the controller in directly, you can swap out programs in seconds, or replace a broken or "bricked" controller cheaply. Its "brain" is the ATMega32u4 on [LadyAda's breakout board](http://www.adafruit.com/products/296?&main_page=product_info&cPath=19&products_id=296)
