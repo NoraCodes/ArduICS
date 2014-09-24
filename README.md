@@ -69,7 +69,7 @@ ATMega 32u4 by Atmel on LadyAda's beautiful breakout board
 * 1MB EEPROM: A tiny board with 1MB of non-volatile memory that can be accessed quickly over the I2C bus. Up to 8 on one I2C bus.
 
 ### SPI Expansion Boards
-* None yet, but we support virtually any SPI enabled system.
+* SPI RTC: A battery-backup Real Time Clock. Keep fairly precise time even when your ICS system is off.
 
 ### Other Expansion Boards
 * Power Regulator for Peripherals **v0.1a**: Provide clean, regulated power to your XPAND boards and other peripherals. Input +6 to +12 volts (from an ATX or other cheap power supply), and get out +5 volts of beautifully flat, clean voltage.
