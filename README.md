@@ -6,7 +6,7 @@ ArduICS
 * Controller: **Atmel ATMega 32u4** on 5V at 16MHz
 * Bus Support: **XPAND** **I2C** **SPI** **UART** **USB**
 * Programmable via **USB** in **Wiring** or **AVR-C**
-* Inputs/Outputs: **5x 5V Digital** and **4x 10-bit analog** and ****
+* Inputs/Outputs: **5x 5V Digital** and **4x 10-bit analog** and **3x relay** (contact rated 120 VAC / 30 VDC @ 1 A)
 
 ### What is ArduICS?
 An Arduino-compatible industrial control system for long-term, low maintenance applications. ArduICS uses simple, easy to manage XPAND interfaces, using 74HC595 shift registers; just send bits along the wire using ShiftIn(), and your outputs will switch. ArduICS uses mostly through-hole (THT) components; no difficult surface-mount soldering means you can assemble everything yourself and save money, and maintenance is as easy as looking up a schematic and popping in a replacement part.
